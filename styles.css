@@ -12,6 +12,8 @@ body {
 
     color: #333;
 
+    transition: background-color 0.3s, color 0.3s; 
+
 }
 
 /* Navigation */
@@ -81,6 +83,7 @@ footer {
     padding: 15px;
 
         margin-top: 30px;
+
 }
 
 /* Images */
@@ -92,6 +95,18 @@ img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
+
+body.dark-mode { 
+
+    background-color: #333333; 
+
+    color: #f9f9f9; 
+
+} 
+
+body.dark-mode nav { background-color: #222222; } 
+
+#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
 
 
 
