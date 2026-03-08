@@ -97,7 +97,7 @@ const backToTopButton = document.getElementById('back-to-top');
 
  window.addEventListener('scroll', function() {
 
-    if (window.scrollY > 100) { 
+    if (window.scrollY > 50) { 
 
         backToTopButton.style.display = 'block'; 
 
@@ -111,7 +111,7 @@ const backToTopButton = document.getElementById('back-to-top');
 
  
 
-backToTopButton.addEventListener('click', function() { 
+backToTopButton.addEventListener('touchstart', function() { 
 
     window.scrollTo({ top: 0, behavior: 'smooth' }); 
 
