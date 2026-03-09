@@ -42,9 +42,21 @@
 
  <main> 
 
+    <div id="filter-buttons"> 
+
+        <button class="filter-btn active" data-filter="all">All</button> 
+
+        <button class="filter-btn" data-filter="html">HTML/CSS</button> 
+
+        <button class="filter-btn" data-filter="bootstrap">Bootstrap</button> 
+
+        <button class="filter-btn" data-filter="javascript">JavaScript</button> 
+
+    </div> 
+
     <!-- Project 1 --> 
 
-    <article> 
+    <article class="project-card" data-category="html">
 
         <h2>Project 1: Personal Portfolio</h2> 
 
@@ -70,7 +82,7 @@
 
      <!-- Project 2 --> 
 
-     <article> 
+     <article class="project-card" data-category="html">
 
         <h2>Project 2:Tutorial website </h2> 
 
@@ -101,6 +113,8 @@
     <p>&copy; 2026 Tuanwina</p> 
 
 </footer> 
+
+<script src="script.js"></script>
 
 </body> 
 
