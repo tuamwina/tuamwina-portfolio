@@ -97,7 +97,7 @@ const backToTopButton = document.getElementById('back-to-top');
 
  window.addEventListener('scroll', function() {
 
-    if (window.scrollY > 50) { 
+    if (window.scrollY > 100) { 
 
         backToTopButton.style.display = 'block'; 
 
